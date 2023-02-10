@@ -12,6 +12,7 @@ public class Main {
 
         System.out.println("automovil = " + automovil);
 
-
+        automovil.avanzar(12);
+        automovil.frenar();
     }
 }

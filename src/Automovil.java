@@ -58,6 +58,14 @@ public class Automovil {
         this.transmision = transmision;
     }
 
+    public void avanzar(int kilometros){
+        System.out.println(this.marca + " " + this.submarca + " avanzando " + kilometros + " kilometros");
+    }
+
+    public void frenar(){
+        System.out.println("Frenando " + this.marca + " " + this.submarca);
+    }
+
     @Override
     public String toString() {
         return "Automovil{" +
